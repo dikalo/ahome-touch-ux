@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	 <script src="Accordion.js"/>
+	 <stylesheet src="Ux.layout.Accordion.css" />
+</module>

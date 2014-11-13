@@ -19,12 +19,12 @@ import java.util.List;
 
 import com.ait.toolkit.sencha.shared.client.core.XType;
 import com.ait.toolkit.sencha.shared.client.data.Store;
-import com.ait.toolkit.sencha.touch.client.ui.ListDataView;
+import com.ait.toolkit.sencha.touch.client.ui.ListView;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.JsArray;
 import com.google.gwt.core.client.JsArrayString;
 
-public class NativeGrid extends ListDataView {
+public class NativeGrid extends ListView {
 
 	protected NativeGrid(JavaScriptObject config) {
 		super(config);

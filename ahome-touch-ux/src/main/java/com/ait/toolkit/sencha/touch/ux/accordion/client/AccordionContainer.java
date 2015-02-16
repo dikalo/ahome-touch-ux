@@ -66,16 +66,6 @@ public class AccordionContainer implements IsComponent {
 		return this.container;
 	}
 
-	/**
-	 * This method is no more needed and will be removed in upcoming releases
-	 * 
-	 * @param parent
-	 */
-	@Deprecated
-	public void addTo(Container parent) {
-		parent.add(this.container);
-	}
-
 	@Override
 	public Component asComponent() {
 		return this.container;
